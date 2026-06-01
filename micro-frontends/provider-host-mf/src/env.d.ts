@@ -9,3 +9,26 @@ declare module '*.svg?react' {
   const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   export default ReactComponent;
 }
+
+/**
+ * Type declaration for the federated remote `patient_remote_mf`.
+ * The plugin also emits richer `@mf-types`, but this keeps `import()` typed
+ * without extra tsconfig wiring.
+ */
+declare module 'patient_remote_mf/App' {
+  import type React from 'react';
+  const App: React.ComponentType;
+  export default App;
+}
+
+declare module 'appointment_remote_mf/App' {
+  import type React from 'react';
+  const App: React.ComponentType;
+  export default App;
+}
+
+declare module 'billing_remote_mf/App' {
+  import type React from 'react';
+  const App: React.ComponentType;
+  export default App;
+}
