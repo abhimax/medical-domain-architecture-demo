@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"npx tsc --project /Users/abhimanranaweera/my-disk/projects/abhimax/medical-domain-architecture-demo/micro-frontends/billing-remote-mf/node_modules/.federation/tsconfig.0b2518f3a86e71a44655dc713e513881.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "npx tsc --project /Users/abhimanranaweera/my-disk/projects/abhimax/medical-domain-architecture-demo/micro-frontends/billing-remote-mf/node_modules/.federation/tsconfig.0b2518f3a86e71a44655dc713e513881.json"
+    },
+    "timestamp": 1781103479986
+  }
+}

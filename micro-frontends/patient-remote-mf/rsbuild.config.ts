@@ -13,6 +13,12 @@ export default defineConfig({
       exposes: {
         './App': './src/App.tsx',
       },
+      remotes: {
+        // Consume the host's exposed global state (zustand store) and the
+        // shared theme toggle button.
+        provider_host_mf:
+          'provider_host_mf@http://localhost:3000/mf-manifest.json',
+      },
       shared: {
         react: { singleton: true, requiredVersion: false },
         'react-dom': { singleton: true, requiredVersion: false },
